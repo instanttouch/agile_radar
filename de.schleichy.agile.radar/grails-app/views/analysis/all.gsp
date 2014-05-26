@@ -84,8 +84,8 @@
 				'gridcolor' : 'rgba(20,20,20,1)'
 			});
 			$('#spidergraphcontainer${myData.id}').spidergraph('addlayer', {
-				'strokecolor' : 'rgba(3,72,105,0.8)',
-				'fillcolor' : 'rgba(3,72,105,0.6)',
+				'strokecolor' : 'rgba(230,104,0,0.8)',
+				'fillcolor' : 'rgba(230,104,0,0.6)',
 				'data' : <%=dataString%>
 			});
 
