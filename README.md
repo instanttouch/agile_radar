@@ -1,6 +1,6 @@
 agile_radar
 ===========
-[![Snake - Scaffolding for Eclipse](http://softtouch.schleichy.de/wordpress/wp-content/uploads/2014/04/snake_eclipse_logo.png)](http://softtouch.schleichy.de)
+[![Snake - Scaffolding for Eclipse](http://softtouch.schleichy.de/wordpress/wp-content/uploads/2014/05/snake_agile.png)](http://softtouch.schleichy.de)
 
 Tracking your Agile Project Goodness
 
