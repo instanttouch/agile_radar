@@ -27,6 +27,8 @@ class BootStrap {
 		new Element(name:'big picture',positive:true,weight:9,category:goal).save(flush: true)
 		new Element(name:'product vision',positive:true,weight:10,category:goal).save(flush: true)
 		new Element(name:'clearness',positive:true,weight:7,category:goal).save(flush: true)
+		new Element(name:'meaningful stories',positive:true,weight:7,category:goal).save(flush: true)
+		new Element(name:'focus',positive:true,weight:9,category:goal).save(flush: true)
 		
 		new Element(name:'pair programming',positive:true,weight:9,category:fun).save(flush: true)
 		new Element(name:'pair design',positive:true,weight:5,category:fun).save(flush: true)
@@ -41,6 +43,7 @@ class BootStrap {
 		new Element(name:'supportive culture',positive:true,weight:10,category:fun).save(flush: true)
 		new Element(name:'diversity',positive:true,weight:5,category:fun).save(flush: true)
 		new Element(name:'white board',positive:true,weight:5,category:fun).save(flush: true)
+		new Element(name:'collective code ownership',positive:true,weight:5,category:fun).save(flush: true)
 		
 		new Element(name:'testing',positive:true,weight:9,category:quality).save(flush: true)
 		new Element(name:'kiss',positive:true,weight:10,category:quality).save(flush: true)
@@ -57,11 +60,14 @@ class BootStrap {
 		new Element(name:'complexity',positive:false,weight:4,category:impediments).save(flush: true)
 		new Element(name:'missing software',positive:false,weight:4,category:impediments).save(flush: true)
 		new Element(name:'broken build',positive:false,weight:10,category:impediments).save(flush: true)		
+		new Element(name:'missing people',positive:false,weight:10,category:impediments).save(flush: true)
 		
 		new Element(name:'technical debt',positive:false,weight:4,category:wrong).save(flush: true)
 		new Element(name:'open issues',positive:false,weight:4,category:wrong).save(flush: true)
 		new Element(name:'not complete',positive:false,weight:4,category:wrong).save(flush: true)
 		new Element(name:'failure',positive:false,weight:4,category:wrong).save(flush: true)
+		new Element(name:'design smell',positive:false,weight:4,category:wrong).save(flush: true)
+		new Element(name:'code smell',positive:false,weight:4,category:wrong).save(flush: true)
 		
 		//impacts
 		new Impact(name: 'minimal',value: 0.0).save(flush: true)
