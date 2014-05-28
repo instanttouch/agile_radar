@@ -8,3 +8,11 @@ Tracking your Agile Project Goodness
 it is based on a eclipse public license (http://www.eclipse.org/legal/epl-v10.html)
 
 all icons are from http://www.iconarchive.com and can be used for free (even commercial)
+
+tutorial
+========
+see an introduction on youtube:
+
+[![Agile Radar - Tracking Sprint Hapiness](http://img.youtube.com/vi/ihrQmRvzatY/0.jpg)](http://www.youtube.com/watch?v=ihrQmRvzatY)
+
+
