@@ -23,4 +23,14 @@ class Element {
 	public String toString() {
 		return name;
 	}
+	
+	public static void create(String name, boolean isPositive, double weight, Category category){
+		Element element = Element.findByName(name)
+		if(!element){
+			element = new Element(name:name,positive:isPositive,weight:weight)
+			element.save(flush: true, insert: true)
+		}
+		element.category = category
+	}
+	
 }

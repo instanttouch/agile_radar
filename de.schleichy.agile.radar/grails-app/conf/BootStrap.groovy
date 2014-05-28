@@ -34,333 +34,66 @@ class BootStrap {
 			} 
 
 			//elements
-			def element = Element.findByName('velocity')
-			if(!element){
-				element = new Element(name:'velocity',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal			
+			Element.create('velocity',true,7.0,goal);
+			Element.create('estimation',true,7.0,goal);
+			Element.create('functionality',true,9.0,goal);
+			Element.create('open for change',true,6.0,goal);
+			Element.create('business value',true,8.0,goal);
+			Element.create('big picture',true,10.0,goal);
+			Element.create('product vision',true,10.0,goal);
+			Element.create('clearness',true,8.0,goal);
+			Element.create('meaningful stories',true,7.0,goal);
+			Element.create('focus',true,9.0,goal);
+			Element.create('velocity',true,7.0,goal);
+			Element.create('velocity',true,7.0,goal);
 			
-			element = Element.findByName('estimation')
-			if(!element){
-				element = new Element(name:'estimation',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			element = Element.findByName('functionality')
-			if(!element){
-				element = new Element(name:'functionality',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			
-			element = Element.findByName('open for change')
-			if(!element){
-				element = new Element(name:'open for change',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			
-			element = Element.findByName('business value')
-			if(!element){
-				element = new Element(name:'business value',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			
-			element = Element.findByName('big picture')
-			if(!element){
-				element = new Element(name:'big picture',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			element = Element.findByName('product vision')
-			if(!element){
-				element = new Element(name:'product vision',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			element = Element.findByName('clearness')
-			if(!element){
-				element = new Element(name:'clearness',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			element = Element.findByName('meaningful stories')
-			if(!element){
-				element = new Element(name:'meaningful stories',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
-			element = Element.findByName('focus')
-			if(!element){
-				element = new Element(name:'focus',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = goal
-
 			goal.save(flush:true)
 			
-
-			element = Element.findByName('pair programming')
-			if(!element){
-				element = new Element(name:'pair programming',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('pair design')
-			if(!element){
-				element = new Element(name:'pair design',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('communication')
-			if(!element){
-				element = new Element(name:'communication',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('openness')
-			if(!element){
-				element = new Element(name:'openness',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('respect')
-			if(!element){
-				element = new Element(name:'respect',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('collaboration')
-			if(!element){
-				element = new Element(name:'collaboration',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('flow')
-			if(!element){
-				element = new Element(name:'flow',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('humanity')
-			if(!element){
-				element = new Element(name:'humanity',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('motivation')
-			if(!element){
-				element = new Element(name:'motivation',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('self organizing team')
-			if(!element){
-				element = new Element(name:'self organizing team',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('supportive culture')
-			if(!element){
-				element = new Element(name:'supportive culture',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-			element = Element.findByName('diversity')
-			if(!element){
-				element = new Element(name:'diversity',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
+			Element.create('pair programming',true,8.0,fun);
+			Element.create('pair design',true,8.0,fun);
+			Element.create('communication',true,10.0,fun);
+			Element.create('openness',true,6.0,fun);
+			Element.create('respect',true,9.0,fun);
+			Element.create('collaboration',true,10.0,fun);
+			Element.create('flow',true,7.0,fun);
+			Element.create('humanity',true,10.0,fun);
+			Element.create('motivation',true,10.0,fun);
+			Element.create('self organizing team',true,7.0,fun);
+			Element.create('supportive culture',true,6.0,fun);
+			Element.create('diversity',true,4.0,fun);
+			Element.create('white board',true,8.0,fun);
+			Element.create('collective code ownership',true,8.0,fun);
 			
-			element = Element.findByName('white board')
-			if(!element){
-				element = new Element(name:'white board',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
-
-			element = Element.findByName('collective code ownership')
-			if(!element){
-				element = new Element(name:'collective code ownership',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = fun
-
 			fun.save(flush:true)
 
-			element = Element.findByName('TDD')
-			if(!element){
-				element = new Element(name:'TDD',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('KISS')
-			if(!element){
-				element = new Element(name:'KISS',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('refactoring')
-			if(!element){
-				element = new Element(name:'refactoring',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('reviews')
-			if(!element){
-				element = new Element(name:'reviews',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('learning')
-			if(!element){
-				element = new Element(name:'learning',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('prototyping')
-			if(!element){
-				element = new Element(name:'prototyping',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('inspection')
-			if(!element){
-				element = new Element(name:'inspection',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('continuous delivery')
-			if(!element){
-				element = new Element(name:'continuous delivery',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('improvement')
-			if(!element){
-				element = new Element(name:'improvement',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('make work visible')
-			if(!element){
-				element = new Element(name:'make work visible',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
-
-			element = Element.findByName('wiki')
-			if(!element){
-				element = new Element(name:'wiki',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = quality
+			Element.create('TDD',true,10.0,quality);
+			Element.create('KISS',true,9.0,quality);
+			Element.create('refactoring',true,6.0,quality);
+			Element.create('reviews',true,5.0,quality);
+			Element.create('learning',true,6.0,quality);
+			Element.create('prototyping',true,7.0,quality);
+			Element.create('inspection',true,4.0,quality);
+			Element.create('continuous delivery',true,8.0,quality);
+			Element.create('continuous improvment',true,9.0,quality);
+			Element.create('make work visible',true,8.0,quality);
+			Element.create('wiki',true,7.0,quality);
 
 			quality.save(flush:true)
 
-			element = Element.findByName('complexity')
-			if(!element){
-				element = new Element(name:'complexity',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = impediments
-
-			element = Element.findByName('tools')
-			if(!element){
-				element = new Element(name:'tools',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = impediments
-
-			element = Element.findByName('broken build')
-			if(!element){
-				element = new Element(name:'broken build',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = impediments
-
-			element = Element.findByName('missing people')
-			if(!element){
-				element = new Element(name:'missing people',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = impediments
-
+			Element.create('complexity',true,7.0,impediments);
+			Element.create('tools',true,5.0,impediments);
+			Element.create('broken build',true,10.0,impediments);
+			Element.create('missing people',true,8.0,impediments);
+			
 			impediments.save(flush:true)
 
-			element = Element.findByName('technical debt')
-			if(!element){
-				element = new Element(name:'technical debt',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = wrong
-
-
-			element = Element.findByName('open issues')
-			if(!element){
-				element = new Element(name:'open issues',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = wrong
-
-			element = Element.findByName('not complete')
-			if(!element){
-				element = new Element(name:'not complete',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = wrong
-
-			element = Element.findByName('failure')
-			if(!element){
-				element = new Element(name:'failure',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = wrong
-
-			element = Element.findByName('design smell')
-			if(!element){
-				element = new Element(name:'design smell',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
-			element.category = wrong
-
-			element = Element.findByName('code smell')
-			if(!element){
-				element = new Element(name:'code smell',positive:true,weight:7.0)
-				element.save(flush: true, insert: true)
-			}
+			Element.create('technical debt',true,6.0,wrong);
+			Element.create('open issues',true,8.0,wrong);
+			Element.create('not complete',true,7.0,wrong);
+			Element.create('failure',true,7.0,wrong);
+			Element.create('design smell',true,8.0,wrong);
+			Element.create('code smell',true,9.0,wrong);
+			
 			element.category = wrong
 
 
