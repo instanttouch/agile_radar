@@ -4,6 +4,10 @@ agile_radar
 
 Tracking your Agile Project Goodness
 
+powered by 
+Grails: https://grails.org/
+and
+jquery/spidergraph: https://github.com/jmstriegel/jquery.spidergraph
 
 it is based on a eclipse public license (http://www.eclipse.org/legal/epl-v10.html)
 
