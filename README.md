@@ -2,7 +2,7 @@ agile_radar
 ===========
 [![Snake - Scaffolding for Eclipse](http://softtouch.schleichy.de/wordpress/wp-content/uploads/2014/05/snake_agile.png)](http://softtouch.schleichy.de)
 
-Tracking your Agile Project Goodness
+Tracking your Agile Project Happiness
 
 powered by 
 Grails: https://grails.org/
