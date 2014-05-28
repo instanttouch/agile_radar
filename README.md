@@ -13,9 +13,9 @@ it is based on a eclipse public license (http://www.eclipse.org/legal/epl-v10.ht
 
 all icons are from http://www.iconarchive.com and can be used for free (even commercial)
 
-tutorial
+Introduction
 ========
-see an introduction on youtube:
+see an webinar on youtube:
 
 [![Agile Radar - Tracking Sprint Hapiness](http://img.youtube.com/vi/ihrQmRvzatY/0.jpg)](http://www.youtube.com/watch?v=ihrQmRvzatY)
 
