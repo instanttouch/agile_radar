@@ -120,7 +120,6 @@
 								
 				<h2>Analysis</h2>
 				<ul>
-					<li class="controller"><g:link controller="Analysis" action="current">Current</g:link></li>
 					<li class="controller"><g:link controller="Analysis" action="all">Trend</g:link></li>
 				</ul>
 				

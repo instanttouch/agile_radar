@@ -44,7 +44,7 @@
 	<g:each in="${snapshotList}" var="myData">
 		<div id="spidergraphcontainer${myData.id}"></div>
 		<%double index = de.schleichy.agile.radar.AnalysisService.calculateIndex(myData) %>
-		<h3>Snapshot vom ${myData.dateCreated.format("dd.MM.yyyy")}, AgileIndex: <g:formatNumber number="${index}" type="number"
+		<h3>${myData.name} at ${myData.dateCreated.format("dd.MM.yyyy")}, AgileIndex: <g:formatNumber number="${index}" type="number"
                 maxFractionDigits="2" roundingMode="HALF_DOWN" /></h3>
 	</g:each>
  
