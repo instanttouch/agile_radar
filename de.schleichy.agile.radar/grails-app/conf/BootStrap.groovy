@@ -94,7 +94,7 @@ class BootStrap {
 			Element.create('design smell',true,8.0,wrong)
 			Element.create('code smell',true,9.0,wrong)
 			
-			element.category = wrong
+			wrong.save()
 
 
 			//impacts
