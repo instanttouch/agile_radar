@@ -1,6 +1,6 @@
 agile_radar
 ===========
-[![Snake - Scaffolding for Eclipse](http://softtouch.schleichy.de/wordpress/wp-content/uploads/2014/05/snake_agile.png)](http://softtouch.schleichy.de)
+[![Snake - Scaffolding for Eclipse](http://www.instanttouch.de/wp-content/uploads/2014/05/snake_agile.png)](http://www.instanttouch.de)
 
 Tracking your Agile Project Happiness
 
@@ -13,10 +13,6 @@ it is based on a eclipse public license (http://www.eclipse.org/legal/epl-v10.ht
 
 all icons are from http://www.iconarchive.com and can be used for free (even commercial)
 
-Introduction
-========
-see an webinar on youtube:
 
-[![Agile Radar - Tracking Sprint Hapiness](http://img.youtube.com/vi/ihrQmRvzatY/0.jpg)](http://www.youtube.com/watch?v=ihrQmRvzatY)
 
 
